@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+.block-el {
+    background: #ffcccc;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.inline-el {
+    background: #ccffcc;
+    border: 1px solid green;
+}
+.flex-box {
+    display: flex;
+    gap: 20px;
+    background: #e0e0e0;
+    padding: 10px;
+    margin-top: 20px;
+}
+.sizing {
+    width: 200px;
+    padding: 20px;
+    border: 10px solid black;
+    margin-bottom: 10px;
+}
+.content {
+    box-sizing: content-box;
+}
+.border {
+    box-sizing: border-box;
+}
+.float-box {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background: orange;
+    margin-right: 15px;
+}
+.clearfix {
+    clear: both;
+}
+.overflow-hidden {
+    width: 150px;
+    height: 50px;
+    background: lightgray;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.overflow-scroll {
+    width: 150px;
+    height: 50px;
+    background: lightgray;
+    overflow: scroll;
+}
+.relative-box {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    width: 200px;
+    height: 100px;
+    background: lightblue;
+}
+.absolute-box {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: red;
+    color: white;
+    padding: 5px;
+}
+.fixed-box {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background: black;
+    color: white;
+    padding: 10px;
+}
+.sticky-box {
+    position: sticky;
+    top: 0;
+    background: yellow;
+    padding: 10px;
+    border: 2px solid black;
+}
+.main-nav {
+    background: #333;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+.main-nav a:hover {
+    color: #ffcc00;
+}
